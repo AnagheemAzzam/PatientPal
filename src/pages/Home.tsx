@@ -9,9 +9,6 @@ export const Home: FC = () => {
     const name = (nameValue: string) => {
         return nameValue;
     };
-    const diagnosis = (diagnosisValue: string) => {
-        return diagnosisValue;
-    };
 
     return <div>
         <h1 className="text-base-content text-4xl">{t(name(Ana))}</h1>
@@ -19,7 +16,8 @@ export const Home: FC = () => {
             <div className="card-body">
                 <div className="card sm:max-w-sm">
 
-                </div>                <div className="card-actions">
+                </div>
+                <div className="card-actions">
                     <button className="btn btn-primary">Edit</button>
                 </div>
             </div>
