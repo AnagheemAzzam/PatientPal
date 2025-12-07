@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FlyOnUI App demo
 
 ## Run locally
@@ -40,3 +41,7 @@ Don't forget to replace `xxx` with your Firebase project name, for example, in t
 
 ## Google authorization
 Enable Google auth in the Firebase console. Go to the `./src/component/Login.tsx` and replace the code with the commented section.
+=======
+# PatientPal
+Ein App das hilft psychische erkranke Menschen um ein Wochenziel und Wochenende Plan zu erstellen.
+>>>>>>> d17af9c0452073921d5779b4e5bb3691ecc068fc
